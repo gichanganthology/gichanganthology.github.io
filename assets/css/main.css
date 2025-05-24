@@ -2590,16 +2590,20 @@
 		table {
 			margin: 0 0 2em 0;
 			width: 100%;
+			border: 1px solid black;
 		}
 
 			table tbody tr {
-				border: solid 1px;
+				border: 1px solid black;
 				border-left: 0;
 				border-right: 0;
+				border-top: 0;
+				border-bottom: 0;
 			}
 
 			table td {
 				padding: 0.75em 0.75em;
+				border: 1px solid black;
 			}
 
 			table th {
@@ -2607,6 +2611,7 @@
 				font-weight: 400;
 				padding: 0 0.75em 0.75em 0.75em;
 				text-align: left;
+				border: 1px solid black;
 			}
 
 			table thead {
